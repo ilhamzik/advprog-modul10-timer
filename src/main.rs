@@ -76,6 +76,8 @@ fn main() {
         println!("Ilham's Komputer: done!");
     });
 
+    println!("halohalo aku diluar async task!");
+
     drop(spawner);
     executor.run();
 }
