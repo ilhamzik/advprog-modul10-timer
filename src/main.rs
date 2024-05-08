@@ -76,6 +76,18 @@ fn main() {
         println!("Ilham's Komputer: done!");
     });
 
+    spawner.spawn(async {
+        println!("Ilham's Komputer: howdy2!");
+        TimerFuture::new(Duration::new(2, 0)).await;
+        println!("Ilham's Komputer: done2!");
+    });
+
+    spawner.spawn(async {
+        println!("Ilham's Komputer: howdy3!");
+        TimerFuture::new(Duration::new(2, 0)).await;
+        println!("Ilham's Komputer: done3!");
+    });
+
     println!("halohalo aku diluar async task!");
 
     drop(spawner);
