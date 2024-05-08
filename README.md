@@ -9,5 +9,6 @@ Dapat dilihat pada screenshot diatas, "halohalo" muncul lebih dahulu daripada st
 
 
 ## 1.3
-*screenshot menyusul*
+![image](https://github.com/ilhamzik/advprog-modul10-timer/assets/124953758/84a0221d-d59c-4b50-8fb8-2a2dc774173e)
+
 Dapat diilihat pada screenshot diatas, program tidak berhenti setelah semua statement di print. Ini disebabkan oleh drop function yang telah dihapus dan tidak ada penanda untuk menghentikan program pada eksekutor. Urutan print juga tidak jelas, ini disebabkan eksekutor kesulitan memanage task banyak (tiap task yang dibuat spawner memakan resource).
